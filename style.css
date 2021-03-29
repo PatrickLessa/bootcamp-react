@@ -1,0 +1,48 @@
+body{
+    font-family: 'Century Gothic';
+    margin: 0;
+    padding: 5px 5px;
+}
+
+#app{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head img{
+    width: 200px;
+}
+
+.div-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 40%;
+    height: 40px;
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.add{
+    background-color: #27eb15;
+}
+
+.remove{
+    background-color: #eb1515;
+}
