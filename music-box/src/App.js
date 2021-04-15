@@ -1,10 +1,9 @@
+import React from 'react';
+import Routes from './routes';
+
 function App() {
   return (
-    
-    <p>
-      Hello World, now it's us at reactO.
-    </p>
-        
+        <Routes/>
   );
 }
 
